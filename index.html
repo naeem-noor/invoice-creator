@@ -1,0 +1,42 @@
+<html>
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">
+            <h1 id="heading">Invoice creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC!</p>          
+        </div>
+        <div id="services">
+            <button class="serviceBtn" id="wash-car" style="font-weight: 500;font-size: 14px;line-height: 16px; color: #4A4E74;">Wash Car: $10</button>
+            <button class="serviceBtn" id="mow-lawn" style="left: 203.44px; font-weight: 500;font-size: 14px;line-height: 16px; color: #4A4E74;">Mow Lawn: $20</button>
+            <button class="serviceBtn" id="pull-weeds" style="left: 367.83px; font-weight: 500;font-size: 14px;line-height: 16px; color: #4A4E74;">Pull Weeds: $30</button>
+        </div>
+        <div class="tableHead">
+            <h3 id="task">TASK</h3>
+            <h3 id="total">TOTAL</h3>
+        </div>
+        <div id="tasks">
+        
+        </div>
+        <hr>
+        <div class="footer-hed">
+            <p id="footer-note">NOTES</p>
+            <p id="footer-total">TOTAL AMOUNT</p>
+        </div>
+        <div class="foot-result">
+            <p id="foot-note">We accept cash, credit card, or PayPal</p>
+            <p id="foot-total">$0</p>
+        </div>
+        <div class="">
+            <button class="footer-btn" style="font-weight: 500;font-size: 16px;line-height: 24px;color: #FFFFFF;" onclick="resetBtn()">Send invoice</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
